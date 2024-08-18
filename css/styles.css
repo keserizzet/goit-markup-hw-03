@@ -1,0 +1,211 @@
+body{
+    font-family:  "Roboto", sans-serif;
+    color: NAVY BLUE;
+}
+header .menuler{
+    display: flex;
+    list-style: none;
+    border: 0 solid #ffffff;
+    width: 100%;
+}
+header .menuler .sol{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin-left: 15%;
+    gap: 50px;
+}
+header .menuler .sag{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    margin-right: 15%;
+}
+header .menuler .sag ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: #2E2F42;
+    font-weight: 700;
+    font-family:  "Raleway", sans-serif;
+    font-size: 18px;
+    padding: 20px;
+}
+header a span{
+    color: #4D5AE5;
+}
+header nav ul li{
+    list-style: none;
+}
+header .menu{
+    display: flex;
+    gap: 15px;
+}
+header .contact{
+    display: flex;
+    gap: 15px;
+}
+.slider{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2E2F42;
+}
+.slider h1{
+    font-size: 50px;
+    color: #ffffff;
+}
+.slider button{
+    border: 0 solid transparent;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #4D5AE5;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.yazilar{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.yazilar h2{
+    font-size: 30px;
+}
+.yazilar ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.yazilar ul li p{
+    font-size: 18px;
+}
+.team{
+    height: 800px;
+    background-color: #F4F4FD;
+
+}
+.team h2{
+    display: flex;
+    justify-content: center;
+    padding: 7% 0px 50px;
+    font-size: 30px;
+}
+.team ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 15px;
+}
+.team ul li{ 
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+}
+.team ul li .name{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.team ul li .name h4{
+    font-size: 22px;
+    color: #2E2F42;
+}
+.team ul li .name p{
+    color: #434455;
+}
+.portfolio{
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 0px 50px;
+}
+.portfolio h2{
+    font-size: 30px;
+}
+.portfolio ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+    gap: 20px;
+}
+.portfolio ul li{
+    background-color: #FFFFFF;
+    border: 1px solid #E7E9FC;
+}
+.portfolio ul li:active{
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.6s ease;
+}
+.image-container {
+    position: relative;
+    width: 400px;
+    height: auto;
+}
+.portfolio ul li .name{
+    padding: 15px;
+    cursor: pointer;
+}
+.portfolio ul li .bank{
+    display: none;
+    position: absolute;
+    top: -16px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: #404BBF;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: start;
+    justify-content:first baseline;
+    align-items: first baseline;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 1s ease;
+}
+.portfolio ul li .image:active + .bank{
+    display: flex;
+    opacity: 1;
+}
+.portfolio ul li .image{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    display: block;
+    transition: all 1s ease;
+}
+.portfolio ul li .image:active{
+    visibility: hidden;
+    opacity: 0;
+}
+footer{
+    height: 300px;
+    background-color: #2E2F42;
+    padding: 100px 350px;
+}
+footer a{
+    text-decoration: none;
+    color: #F4F4FD;
+    font-weight: 700;
+    font-family:  "Raleway", sans-serif;
+    font-size: 18px;
+}
+footer a span{
+    color: #4D5AE5;
+}
+footer p{
+    color: #F4F4FD;
+    
+}
