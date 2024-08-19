@@ -247,13 +247,15 @@ header .contact{
 footer{
     height: 300px;
     background-color: #2E2F42;
-    padding: 100px 340px;
+    padding: 100px 0;
 }
 footer .container{
 display: flex;
 flex-direction: column;
 gap: 25px;
 width: 1158px;
+align-items: start;
+padding: 0 340px;
 }
 footer a{
     text-decoration: none;
